@@ -149,6 +149,38 @@ address > a {
 address > a:hover {
   text-decoration: none;
   color: orangered;
-  
-  
+}
+
+.tp {
+  text-align: center;
+  margin: 50px 0;
+}
+
+form {
+  display: grid;
+  justify-content: center;
+  margin: 100px 0;
+}
+
+label {
+  display: grid;
+  text-align: center;
+  color: orange;
+  margin: 10px 0;
+}
+
+input {
+  text-align: center;
+  color: #4e5d6c;
+  background-color: #1f2d3b;
+  border: 1px solid #4e5d6c;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+textarea {
+  display: block;
+  background-color: #1f2d3b;
+  border: 1px solid #4e5d6c;
+  border-radius: 5px;
 }
