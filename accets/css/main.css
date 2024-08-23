@@ -205,6 +205,10 @@ input:hover{
   border:  1px solid orangered;
 }
 
+.btn {
+  margin-top: 10px;
+}
+
 .btn:hover {
   background-color: #4e5d6c;
   color: orangered;
