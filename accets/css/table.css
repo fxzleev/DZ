@@ -4,14 +4,17 @@
   grid-template-rows: repeat (19, 25px);
   gap: 1px;
   justify-content: center;
- align-items: center; 
+  padding: 50px 0;
 }
 
 .element {
+  display: grid;
   min-height: 25px;
   height: 100%;
   width: 100%;
   border: 1px solid;
+  place-items: center;
+  align-items: center;
 }
 
 .skills {

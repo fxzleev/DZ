@@ -1,2 +1,154 @@
-@import 'table.css'
+@import 'table.css';
+@import 'vars.css';
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--heder-height);
+}
+
+body {
+  background-color: #1f2d3b;
+  color: #8694a4;
+  padding-top: var(--heder-height);
+  display: flex;
+  flex-direction: column;
+  min-height: 94.8vh;
+}
+
+header {
+  position: fixed;
+  background-color: #1f2d3b;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 3px 4px rgba(0,0,0,.15);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  height: var(--heder-height);
+}
+
+main {
+  margin-bottom: var(--heder-height);
+  flex-grow: 1;
+  
+}
+
+footer {
+  width: 100%;
+  box-shadow: 0px -3px 4px rgba(0,0,0,.15);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  flex-shrink: 0;
+}
+
+h1 {
+  color: orange;
+  font-size: 42px;
+}
+
+h2, h3 {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-color: #2b3e50;
+  border-bottom-color: #4e5d6c;
+  margin: 50px 0;
+}
+
+section {
+  display: grid;
+  place-items: center;
+}
+
+figure {
+  display: grid;
+  place-items: center;
+  margin: 30px 0;
+}
+
+figcaption {
+  text-align: start;
+  margin: 10px;
+  width: 500px;
+}
+
+section img {
+  width: 500px;
+}
+
+.art_cont {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+}
+
+.art_cont > article {
+  display: grid;
+  justify-content: center;
+}
+
+.nav > li {
+  display: inline-block;
+}
+  
+.nav > li > a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #4e5d6c;
+  padding: 16px 16px;
+  position: relative;
+}
+
+footer > nav > .nav > li > a {
+  padding: 30px 16px;
+}
+
+.nav > li > a:hover {
+  color: orangered;
+  background-color: #4e5d6c;
+}
+
+.nav > li > a:active {
+  color: white;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 32px;
+  text-decoration: none;
+}
+
+.p1 {
+  color: orange
+}
+.p2 {
+  color: #50a2de;
+}
+iframe {
+  width: 500px;
+  height: 500px;
+  border: none;
+}
+address {
+  padding: 2px;
+}
+
+address > a {
+  color: #50a2de;
+
+}
+
+address > a:hover {
+  text-decoration: none;
+  color: orangered;
+  
+  
+}
