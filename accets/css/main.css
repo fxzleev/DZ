@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 @import 'table.css';
 @import 'vars.css';
 
@@ -12,6 +13,10 @@ html {
 }
 
 body {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: none;
+  font-weight: 100;
+  font-style: normal;
   background-color: #1f2d3b;
   color: #8694a4;
   padding-top: var(--heder-height);
@@ -27,7 +32,7 @@ header {
   width: 100%;
   box-shadow: 0 3px 4px rgba(0,0,0,.15);
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 2fr;
   align-items: center;
   height: var(--heder-height);
 }
@@ -42,12 +47,13 @@ footer {
   width: 100%;
   box-shadow: 0px -3px 4px rgba(0,0,0,.15);
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 2fr;
   align-items: center;
   flex-shrink: 0;
 }
 
 h1 {
+  margin-top: 20px;
   color: orange;
   font-size: 42px;
 }
